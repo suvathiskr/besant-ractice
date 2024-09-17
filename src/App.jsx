@@ -34,28 +34,27 @@
 
 // export default App
 
-{/* 
-// <BrowserRouter> */}
-        {/* <h1>suvathi</h1>
+{/* <BrowserRouter> */ }
+{/* <h1>suvathi</h1>
       <AddCart />
 
       <MovieList> */}
-        {/* <ApiCall/> */}
+{/* <ApiCall/> */ }
 
-        {/* <InputComp/> */}
+{/* <InputComp/> */ }
 
-        {/* { <ApiCallWithUseEffect name={"suvathi"}/> } */}
+{/* { <ApiCallWithUseEffect name={"suvathi"}/> } */ }
 
-        {/* <BdProject/> */}
+{/* <BdProject/> */ }
 
-        {/* <GroceryListComp/>  */}
+{/* <GroceryListComp/>  */ }
 
-        {/* <NameChange/> */}
+{/* <NameChange/> */ }
 
-        {/* <ListRender/> */}
+{/* <ListRender/> */ }
 
-        
-        {/* 
+
+{/* 
       <Link to="/">Home</Link>
       <Link to="/product">Product</Link>
       <Link to="about">About</Link>
@@ -90,7 +89,8 @@ import React, { useState } from "react";
 // import GroceryListComp from "./components/functioncomponent/GroceryListComp";
 // import NameChange from "./components/FuncComponent/NameChange";
 // import ListRender from "./components/FuncComponent/ListRender";
-import UseReducer from "./components/functioncomponent/UseReducer";
+// import UseReducer from "./components/functioncomponent/UseReducer";
+import ApiCall from "./components/functioncomponent/ApiCall";
 
 
 function App() {
@@ -98,9 +98,10 @@ function App() {
   return (
     <div>
 
-      <UseReducer/>
+      {/* <UseReducer /> */}
 
-    
+      <ApiCall />
+
 
     </div>
   )
