@@ -11,6 +11,15 @@ function ApiCall() {
         setapidata(data);
     }
 
+
+    const handlefetchdsfds = async () => {
+
+        let res = await fetch("https://fakestoreapi.com/products");
+        let data = await res.json();
+
+        setapidata(data);
+    }
+
     return (
         <>
             <h1>Api Call</h1>
