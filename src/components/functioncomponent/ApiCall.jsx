@@ -12,7 +12,7 @@ function ApiCall() {
     }
 
 
-    const handlefetchdsfds = async () => {
+    const arunachalam = async () => {
 
         let res = await fetch("https://fakestoreapi.com/products");
         let data = await res.json();
