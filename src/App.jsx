@@ -77,19 +77,19 @@
 
 
 import React, { useState } from "react";
-import AddCart from "./components/AddCart";
-import MovieList from "./components/movielist";
-import ApiCall from "./components/functioncomponent/ApiCall";
-import ApiCallWithUseEffect from "./components/functioncomponent/ApiCallWithUseEffect";
-import InputComp from "./components/functioncomponent/InputComp";
-import BdProject from "./components/functioncomponent/BdProject";
-import HomeComp from "./components/router/HomeComp";
-import ProductComp from "./components/router/ProductComp";
-import AboutComp from "./components/router/AboutComp";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import GroceryListComp from "./components/functioncomponent/GroceryListComp";
-import NameChange from "./components/FuncComponent/NameChange";
-import ListRender from "./components/FuncComponent/ListRender";
+// import AddCart from "./components/AddCart";
+// import MovieList from "./components/movielist";
+// import ApiCall from "./components/functioncomponent/ApiCall";
+// import ApiCallWithUseEffect from "./components/functioncomponent/ApiCallWithUseEffect";
+// import InputComp from "./components/functioncomponent/InputComp";
+// import BdProject from "./components/functioncomponent/BdProject";
+// import HomeComp from "./components/router/HomeComp";
+// import ProductComp from "./components/router/ProductComp";
+// import AboutComp from "./components/router/AboutComp";
+// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+// import GroceryListComp from "./components/functioncomponent/GroceryListComp";
+// import NameChange from "./components/FuncComponent/NameChange";
+// import ListRender from "./components/FuncComponent/ListRender";
 import UseReducer from "./components/functioncomponent/UseReducer";
 
 
