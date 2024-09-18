@@ -91,6 +91,12 @@ import React, { useState } from "react";
 // import ListRender from "./components/FuncComponent/ListRender";
 // import UseReducer from "./components/functioncomponent/UseReducer";
 import ApiCall from "./components/functioncomponent/ApiCall";
+import CustomComp from "./components/functioncomponent/CustomComp";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+
+
+ 
 
 
 function App() {
@@ -99,10 +105,10 @@ function App() {
     <div>
 
       {/* <UseReducer /> */}
+      {/* 
+      <ApiCall /> */}
 
-      <ApiCall />
-
-
+      <CustomComp />
     </div>
   )
 }
